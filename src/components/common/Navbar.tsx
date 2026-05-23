@@ -404,9 +404,14 @@ export default function Navbar() {
               {/* Center Zone: Typographic Luxury Logo */}
               <div className="flex-shrink-0 text-center flex justify-center">
                 <Link href="/" className="inline-block">
-                  <span className="font-display text-2xl md:text-3xl font-bold tracking-[0.35em] text-brand-charcoal uppercase select-none">
+                  {/* <span className="font-display text-2xl md:text-3xl font-bold tracking-[0.35em] text-brand-charcoal uppercase select-none">
                     west elm
-                  </span>
+                  </span> */}
+                  <img
+  src="/valmoralivinglogo.png"
+  alt="Valmora Living"
+  className="h-14 w-auto object-contain"
+/>
                 </Link>
               </div>
 

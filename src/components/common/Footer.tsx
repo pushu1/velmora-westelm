@@ -230,9 +230,15 @@ export default function Footer() {
         {/* Bottom Credits & Legalities */}
         <div className="border-t border-[#222222] pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex flex-col items-center md:items-start space-y-1">
-            <span className="font-display text-sm font-semibold tracking-[0.25em] text-white uppercase select-none">
+            {/* <span className="font-display text-sm font-semibold tracking-[0.25em] text-white uppercase select-none">
               WEST ELM INDIA
-            </span>
+            </span> */}
+
+            <img
+  src="/valmoralivinglogo.png"
+  alt="Valmora Living"
+  className="h-12 w-auto object-contain"
+/>
             <p className="text-[10px] text-brand-grey-dark text-center md:text-left mt-1">
               © {new Date().getFullYear()} Reliance Brands Limited. Licenced replica of West Elm. All rights reserved.
             </p>
